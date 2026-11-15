@@ -1,0 +1,62 @@
+name: Avisos DGT
+run-name: >-
+  Avisos · ${{ github.event_name == 'workflow_dispatch'
+  && (inputs.origen == 'cron-externo' && '⏱ cron externo' || '🖐 manual')
+  || '🕐 cron GitHub (respaldo)' }}
+
+on:
+  # Disparo principal: cron externo -> API de GitHub (workflow_dispatch), cada 5 min. Ver README.
+  workflow_dispatch:
+    inputs:
+      origen:
+        description: 'Quién lanza el workflow (cron-externo o manual)'
+        required: false
+        default: 'manual'
+  # Solo de respaldo: GitHub lo ejecuta "cuando puede". Es inocuo: el estado evita avisos duplicados.
+  schedule:
+    - cron: '7,37 * * * *'
+
+# Nunca dos ejecuciones a la vez: ambas leerían/escribirían data/estado.json.
+concurrency:
+  group: avisos
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  avisos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Consultar la DGT y avisar por Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m bot
+
+      # Se ejecuta aunque el paso anterior falle: si ya se enviaron avisos hay que guardarlos para no repetirlos.
+      - name: Guardar estado
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -n "$(git status --porcelain data/estado.json)" ]; then
+            git config user.name "oei_avisos_bot"
+            git config user.email "oei_avisos_bot@users.noreply.github.com"
+            git add data/estado.json
+            git commit -m "chore(estado): actualizar avisos [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+              sleep 3
+            done
+            echo "No se pudo guardar el estado" >&2
+            exit 1
+          fi

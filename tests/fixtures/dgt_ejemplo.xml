@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2:payload xmlns:d2="http://levelC/schema/3/d2Payload" xmlns:sit="http://levelC/schema/3/situation"
+            xmlns:com="http://levelC/schema/3/common" xmlns:loc="http://levelC/schema/3/locationReferencing"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sit:situation id="S1">
+    <!-- 9001: accidente en la A-2 (dentro de la caja) -->
+    <sit:situationRecord xsi:type="sit:Accident" id="9001" version="1">
+      <sit:validity><com:validityStatus>active</com:validityStatus><com:validityTimeSpecification>
+        <com:overallStartTime>2026-11-14T13:25:00+01:00</com:overallStartTime></com:validityTimeSpecification></sit:validity>
+      <sit:cause><sit:causeType>accident</sit:causeType></sit:cause>
+      <sit:generalPublicComment><sit:comment><com:values><com:value lang="es">Accidente con &lt;varios&gt; vehículos &amp; heridos</com:value></com:values></sit:comment></sit:generalPublicComment>
+      <sit:groupOfLocations><loc:roadName>A-2</loc:roadName>
+        <loc:tpegDirection>eastbound</loc:tpegDirection><loc:tpegDirectionRoad>POSITIVE</loc:tpegDirectionRoad>
+        <loc:kilometerPoint>312.4</loc:kilometerPoint>
+        <loc:latitude>41.6402</loc:latitude><loc:longitude>-0.8901</loc:longitude></sit:groupOfLocations>
+    </sit:situationRecord>
+    <!-- 9002: vehículo detenido en la A-23 -->
+    <sit:situationRecord xsi:type="sit:NonRoadEventInformation" id="9002" version="1">
+      <sit:validity><com:validityTimeSpecification><com:overallStartTime>2026-11-14T13:40:00+01:00</com:overallStartTime></com:validityTimeSpecification></sit:validity>
+      <sit:cause><sit:causeType>vehicleObstruction</sit:causeType><sit:detailedCauseType><sit:vehicleObstructionType>vehicleStuck</sit:vehicleObstructionType></sit:detailedCauseType></sit:cause>
+      <sit:groupOfLocations><loc:roadName>A-23</loc:roadName><loc:kilometerPoint>275.13</loc:kilometerPoint>
+        <loc:tpegDirectionRoad>NEGATIVE</loc:tpegDirectionRoad>
+        <loc:latitude>41.598</loc:latitude><loc:longitude>-0.9398</loc:longitude></sit:groupOfLocations>
+    </sit:situationRecord>
+    <!-- 9003: tráfico lento en la Z-40 -->
+    <sit:situationRecord xsi:type="sit:AbnormalTraffic" id="9003" version="1">
+      <sit:validity><com:validityTimeSpecification><com:overallStartTime>2026-11-14T13:50:00+01:00</com:overallStartTime></com:validityTimeSpecification></sit:validity>
+      <sit:cause><sit:causeType>abnormalTraffic</sit:causeType></sit:cause>
+      <sit:abnormalTrafficType>slowTraffic</sit:abnormalTrafficType>
+      <sit:groupOfLocations><loc:roadName>Z-40</loc:roadName><loc:kilometerPoint>23.0</loc:kilometerPoint><loc:kilometerPoint>24.0</loc:kilometerPoint>
+        <loc:latitude>41.61</loc:latitude><loc:longitude>-0.8749</loc:longitude></sit:groupOfLocations>
+    </sit:situationRecord>
+    <!-- 9004: obras (no se avisa) -->
+    <sit:situationRecord xsi:type="sit:MaintenanceWorks" id="9004" version="1">
+      <sit:cause><sit:causeType>roadMaintenance</sit:causeType></sit:cause>
+      <sit:roadOrCarriagewayOrLaneManagementType>laneClosures</sit:roadOrCarriagewayOrLaneManagementType>
+      <sit:groupOfLocations><loc:roadName>Z-30</loc:roadName><loc:latitude>41.62</loc:latitude><loc:longitude>-0.9</loc:longitude></sit:groupOfLocations>
+    </sit:situationRecord>
+    <!-- 9005: accidente fuera de la caja (Madrid) -->
+    <sit:situationRecord xsi:type="sit:Accident" id="9005" version="1">
+      <sit:cause><sit:causeType>accident</sit:causeType></sit:cause>
+      <sit:groupOfLocations><loc:roadName>A-1</loc:roadName><loc:latitude>40.5</loc:latitude><loc:longitude>-3.7</loc:longitude></sit:groupOfLocations>
+    </sit:situationRecord>
+    <!-- 9006: accidente dentro de la caja pero ya caducado -->
+    <sit:situationRecord xsi:type="sit:Accident" id="9006" version="1">
+      <sit:validity><com:validityTimeSpecification><com:overallStartTime>2026-11-13T10:00:00+01:00</com:overallStartTime>
+        <com:overallEndTime>2026-11-13T12:00:00+01:00</com:overallEndTime></com:validityTimeSpecification></sit:validity>
+      <sit:cause><sit:causeType>accident</sit:causeType></sit:cause>
+      <sit:groupOfLocations><loc:roadName>AP-68</loc:roadName><loc:latitude>41.7</loc:latitude><loc:longitude>-1.0</loc:longitude></sit:groupOfLocations>
+    </sit:situationRecord>
+  </sit:situation>
+</d2:payload>

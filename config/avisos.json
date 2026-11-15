@@ -1,0 +1,7 @@
+{
+  "caja": {"lat_min": 41.55, "lat_max": 41.76, "lon_min": -1.08, "lon_max": -0.78},
+  "avisar": ["Accidente", "Retención", "Vehículo detenido"],
+  "olvidar_tras_horas": 6,
+  "max_mensajes_por_ejecucion": 8,
+  "fallos_dgt_para_alertar": 6
+}
