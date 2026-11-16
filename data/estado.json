@@ -1,21 +1,6 @@
 {
  "alerta_dgt_enviada": false,
  "avisados": {
-  "dgt-30079609": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-16T12:10:26+01:00",
-   "fuera": "2026-11-16T13:00:57+01:00"
-  },
-  "dgt-30080229": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-16T12:30:45+01:00",
-   "fuera": "2026-11-16T13:00:57+01:00"
-  },
-  "dgt-30081454": {
-   "categoria": "Accidente",
-   "desde": "2026-11-16T12:50:28+01:00",
-   "fuera": "2026-11-16T13:00:57+01:00"
-  },
   "dgt-30082283": {
    "categoria": "Accidente",
    "desde": "2026-11-16T13:00:57+01:00",
@@ -249,7 +234,7 @@
   "dgt-30096292": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-16T18:40:27+01:00",
-   "fuera": null
+   "fuera": "2026-11-16T19:01:12+01:00"
   }
  },
  "fallos_dgt": 0,
