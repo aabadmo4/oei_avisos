@@ -40,6 +40,16 @@
    "categoria": "Retención",
    "desde": "2026-11-16T07:40:26+01:00",
    "fuera": null
+  },
+  "dgt-30067802": {
+   "categoria": "Retención",
+   "desde": "2026-11-16T07:50:24+01:00",
+   "fuera": null
+  },
+  "dgt-30067882": {
+   "categoria": "Retención",
+   "desde": "2026-11-16T07:50:24+01:00",
+   "fuera": null
   }
  },
  "fallos_dgt": 0,
