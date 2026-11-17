@@ -60,6 +60,21 @@
    "categoria": "Retención",
    "desde": "2026-11-17T07:50:24+01:00",
    "fuera": null
+  },
+  "dgt-30105995": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-17T08:01:02+01:00",
+   "fuera": null
+  },
+  "dgt-30106032": {
+   "categoria": "Retención",
+   "desde": "2026-11-17T08:01:02+01:00",
+   "fuera": null
+  },
+  "dgt-30106267": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-17T08:01:02+01:00",
+   "fuera": null
   }
  },
  "fallos_dgt": 0,
