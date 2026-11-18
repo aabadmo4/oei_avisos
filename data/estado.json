@@ -149,11 +149,16 @@
   "dgt-30167215": {
    "categoria": "Retención",
    "desde": "2026-11-18T17:20:29+01:00",
-   "fuera": null
+   "fuera": "2026-11-18T17:40:26+01:00"
   },
   "dgt-30167636": {
    "categoria": "Retención",
    "desde": "2026-11-18T17:30:50+01:00",
+   "fuera": "2026-11-18T17:40:26+01:00"
+  },
+  "dgt-30167987": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-18T17:40:26+01:00",
    "fuera": null
   }
  },
