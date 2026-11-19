@@ -194,7 +194,7 @@
   "dgt-30214062": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-19T22:30:45+01:00",
-   "fuera": null
+   "fuera": "2026-11-19T23:30:59+01:00"
   },
   "dgt-30214119": {
    "categoria": "Vehículo detenido",
@@ -225,6 +225,11 @@
    "categoria": "Vehículo detenido",
    "desde": "2026-11-19T23:10:28+01:00",
    "fuera": "2026-11-19T23:20:25+01:00"
+  },
+  "dgt-30214851": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-19T23:30:59+01:00",
+   "fuera": null
   }
  },
  "fallos_dgt": 0,
