@@ -16,11 +16,6 @@
    "desde": "2026-11-19T16:00:58+01:00",
    "fuera": "2026-11-19T16:31:15+01:00"
   },
-  "dgt-30202247": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-19T16:00:58+01:00",
-   "fuera": "2026-11-19T16:10:28+01:00"
-  },
   "dgt-30203193": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-19T16:20:29+01:00",
@@ -214,11 +209,16 @@
   "dgt-30213053": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-19T21:20:26+01:00",
-   "fuera": null
+   "fuera": "2026-11-19T22:20:24+01:00"
   },
   "dgt-30213762": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-19T22:01:12+01:00",
+   "fuera": null
+  },
+  "dgt-30214052": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-19T22:20:24+01:00",
    "fuera": null
   }
  },
