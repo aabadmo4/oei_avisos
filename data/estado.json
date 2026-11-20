@@ -1,11 +1,6 @@
 {
  "alerta_dgt_enviada": false,
  "avisados": {
-  "dgt-30217262": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-20T07:10:29+01:00",
-   "fuera": "2026-11-20T08:20:25+01:00"
-  },
   "dgt-30217376": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T07:20:26+01:00",
@@ -16,21 +11,6 @@
    "desde": "2026-11-20T07:40:25+01:00",
    "fuera": "2026-11-20T08:30:42+01:00"
   },
-  "dgt-30218063": {
-   "categoria": "Retención",
-   "desde": "2026-11-20T07:50:27+01:00",
-   "fuera": "2026-11-20T08:20:25+01:00"
-  },
-  "dgt-30218292": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-20T08:00:58+01:00",
-   "fuera": "2026-11-20T08:20:25+01:00"
-  },
-  "dgt-30218439": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-20T08:00:58+01:00",
-   "fuera": "2026-11-20T08:20:25+01:00"
-  },
   "dgt-30218669": {
    "categoria": "Retención",
    "desde": "2026-11-20T08:10:32+01:00",
@@ -40,11 +20,6 @@
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T08:10:32+01:00",
    "fuera": "2026-11-20T08:40:27+01:00"
-  },
-  "dgt-30218736": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-20T08:10:32+01:00",
-   "fuera": "2026-11-20T08:20:25+01:00"
   },
   "dgt-30218943": {
    "categoria": "Vehículo detenido",
@@ -204,6 +179,36 @@
   "dgt-30234869": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T14:10:34+01:00",
+   "fuera": null
+  },
+  "dgt-30235036": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-20T14:20:31+01:00",
+   "fuera": null
+  },
+  "dgt-30235069": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-20T14:20:31+01:00",
+   "fuera": null
+  },
+  "dgt-30235112": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-20T14:20:31+01:00",
+   "fuera": null
+  },
+  "dgt-30235151": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-20T14:20:31+01:00",
+   "fuera": null
+  },
+  "dgt-30235288": {
+   "categoria": "Retención",
+   "desde": "2026-11-20T14:20:31+01:00",
+   "fuera": null
+  },
+  "dgt-30235395": {
+   "categoria": "Retención",
+   "desde": "2026-11-20T14:20:31+01:00",
    "fuera": null
   }
  },
