@@ -1,21 +1,6 @@
 {
  "alerta_dgt_enviada": false,
  "avisados": {
-  "dgt-30217376": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-20T07:20:26+01:00",
-   "fuera": "2026-11-20T08:30:42+01:00"
-  },
-  "dgt-30217707": {
-   "categoria": "Retención",
-   "desde": "2026-11-20T07:40:25+01:00",
-   "fuera": "2026-11-20T08:30:42+01:00"
-  },
-  "dgt-30218669": {
-   "categoria": "Retención",
-   "desde": "2026-11-20T08:10:32+01:00",
-   "fuera": "2026-11-20T08:30:42+01:00"
-  },
   "dgt-30218722": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T08:10:32+01:00",
@@ -169,12 +154,12 @@
   "dgt-30234226": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T14:00:59+01:00",
-   "fuera": null
+   "fuera": "2026-11-20T14:30:48+01:00"
   },
   "dgt-30234302": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T14:00:59+01:00",
-   "fuera": null
+   "fuera": "2026-11-20T14:30:48+01:00"
   },
   "dgt-30234869": {
    "categoria": "Vehículo detenido",
@@ -189,7 +174,7 @@
   "dgt-30235069": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-20T14:20:31+01:00",
-   "fuera": null
+   "fuera": "2026-11-20T14:30:48+01:00"
   },
   "dgt-30235112": {
    "categoria": "Vehículo detenido",
@@ -209,6 +194,11 @@
   "dgt-30235395": {
    "categoria": "Retención",
    "desde": "2026-11-20T14:20:31+01:00",
+   "fuera": null
+  },
+  "dgt-30235554": {
+   "categoria": "Vehículo detenido",
+   "desde": "2026-11-20T14:30:48+01:00",
    "fuera": null
   }
  },
