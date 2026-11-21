@@ -49,6 +49,11 @@
   "dgt-30256476": {
    "categoria": "Accidente",
    "desde": "2026-11-21T10:10:41+01:00",
+   "fuera": "2026-11-21T10:20:33+01:00"
+  },
+  "dgt-30256809": {
+   "categoria": "Accidente",
+   "desde": "2026-11-21T10:20:33+01:00",
    "fuera": null
   }
  },
