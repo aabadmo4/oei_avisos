@@ -21,11 +21,6 @@
    "desde": "2026-11-21T12:50:32+01:00",
    "fuera": "2026-11-21T14:10:34+01:00"
   },
-  "dgt-30260774": {
-   "categoria": "Vehículo detenido",
-   "desde": "2026-11-21T12:50:32+01:00",
-   "fuera": "2026-11-21T13:20:30+01:00"
-  },
   "dgt-30260958": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-21T13:00:55+01:00",
@@ -55,11 +50,6 @@
    "categoria": "Vehículo detenido",
    "desde": "2026-11-21T13:10:32+01:00",
    "fuera": "2026-11-21T13:40:40+01:00"
-  },
-  "dgt-30261369": {
-   "categoria": "Accidente",
-   "desde": "2026-11-21T13:10:32+01:00",
-   "fuera": "2026-11-21T13:20:30+01:00"
   },
   "dgt-30261388": {
    "categoria": "Vehículo detenido",
@@ -234,12 +224,12 @@
   "dgt-30269268": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-21T18:50:29+01:00",
-   "fuera": null
+   "fuera": "2026-11-21T19:30:47+01:00"
   },
   "dgt-30269300": {
    "categoria": "Vehículo detenido",
    "desde": "2026-11-21T18:50:29+01:00",
-   "fuera": null
+   "fuera": "2026-11-21T19:30:47+01:00"
   }
  },
  "fallos_dgt": 0,
