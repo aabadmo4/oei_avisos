@@ -1,6 +1,22 @@
 {
  "alerta_dgt_enviada": false,
- "avisados": {},
+ "avisados": {
+  "dgt-30287785": {
+   "categoria": "Accidente",
+   "desde": "2026-11-22T17:30:43+01:00",
+   "fuera": null
+  },
+  "dgt-30287794": {
+   "categoria": "Accidente",
+   "desde": "2026-11-22T17:30:43+01:00",
+   "fuera": null
+  },
+  "dgt-30287795": {
+   "categoria": "Accidente",
+   "desde": "2026-11-22T17:30:43+01:00",
+   "fuera": null
+  }
+ },
  "fallos_dgt": 0,
  "inicializado": true,
  "version": 1
