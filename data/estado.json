@@ -5,11 +5,6 @@
    "categoria": "Accidente",
    "desde": "2026-11-22T17:30:43+01:00",
    "fuera": null
-  },
-  "dgt-30288457": {
-   "categoria": "Accidente",
-   "desde": "2026-11-22T17:50:32+01:00",
-   "fuera": "2026-11-22T21:00:57+01:00"
   }
  },
  "fallos_dgt": 0,
