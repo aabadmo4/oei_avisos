@@ -1,11 +1,6 @@
 {
  "alerta_dgt_enviada": false,
  "avisados": {
-  "dgt-30325541": {
-   "categoria": "Accidente",
-   "desde": "2026-11-23T18:30:54+01:00",
-   "fuera": "2026-11-23T18:50:31+01:00"
-  },
   "dgt-30325542": {
    "categoria": "Accidente",
    "desde": "2026-11-23T18:30:54+01:00",
