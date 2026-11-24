@@ -1,32 +1,6 @@
 {
  "alerta_dgt_enviada": false,
- "avisados": {
-  "dgt-30325542": {
-   "categoria": "Accidente",
-   "desde": "2026-11-23T18:30:54+01:00",
-   "fuera": "2026-11-23T20:50:29+01:00"
-  },
-  "dgt-30326348": {
-   "categoria": "Accidente",
-   "desde": "2026-11-23T18:50:31+01:00",
-   "fuera": "2026-11-23T20:50:29+01:00"
-  },
-  "dgt-30326349": {
-   "categoria": "Accidente",
-   "desde": "2026-11-23T18:50:31+01:00",
-   "fuera": "2026-11-23T20:50:29+01:00"
-  },
-  "dgt-30326992": {
-   "categoria": "Accidente",
-   "desde": "2026-11-23T19:10:30+01:00",
-   "fuera": "2026-11-23T20:50:29+01:00"
-  },
-  "dgt-30326993": {
-   "categoria": "Accidente",
-   "desde": "2026-11-23T19:10:30+01:00",
-   "fuera": "2026-11-23T20:50:29+01:00"
-  }
- },
+ "avisados": {},
  "fallos_dgt": 0,
  "inicializado": true,
  "version": 1
