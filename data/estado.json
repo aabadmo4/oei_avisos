@@ -1,12 +1,6 @@
 {
  "alerta_dgt_enviada": false,
- "avisados": {
-  "dgt-30415781": {
-   "categoria": "Accidente",
-   "desde": "2026-11-26T11:10:30+01:00",
-   "fuera": "2026-11-26T11:20:29+01:00"
-  }
- },
+ "avisados": {},
  "fallos_dgt": 0,
  "inicializado": true,
  "version": 1
