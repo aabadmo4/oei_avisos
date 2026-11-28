@@ -1,12 +1,6 @@
 {
  "alerta_dgt_enviada": false,
- "avisados": {
-  "dgt-30483214": {
-   "categoria": "Accidente",
-   "desde": "2026-11-28T07:20:30+01:00",
-   "fuera": "2026-11-28T08:50:29+01:00"
-  }
- },
+ "avisados": {},
  "fallos_dgt": 0,
  "inicializado": true,
  "version": 1
